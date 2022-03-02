@@ -76,3 +76,75 @@ a = "Hola mundo"
 a = 'Hola mundo'
 b = "I can't do it"
 c = 'Alias "Checho"'
+
+#Enteron int
+a = 5
+
+#Decimal float
+a = 5.6
+
+#Booleano Bool
+
+x = True
+y = False
+
+
+
+#Conversiones entre tipos de datos
+
+#Convertir de x a entero
+a = '3'
+b = int(a)
+print(type(b))
+
+#Convertir de x a decimal
+a = '3'
+b = float(a)
+print(type(b))
+
+#Convertit de x a String
+a = 3
+b = str(a)
+print(type(b))
+
+
+
+#Concatenaciones
+a = 'hola'
+b = 'mundo'
+c = a + ' ' + b
+print(c)
+
+a = 'hola'
+b = a * 5
+print(b)
+
+#Capturar por panatalla
+nombre = input('Digite su nombre: ')
+print('Hola', nombre)
+
+
+#Interpolacion
+nombre = input('Digite su nombre: ')
+print(f'Su nombre es: {nombre}')
+
+
+#Sume dos numeros e imprima su resultado
+num1 = int(input('Ingrese el valor del pirmer numero: '))
+num2 = int(input('Ingrese el valor del segundo numero: '))
+total = num1 + num2
+print(f'El resultado de sumar {num1} + {num2} es igual a: {total}')
+
+
+#Un alg que lea un numero y lo eleve al cuadrado
+num = int(input('Ingrese el numero con el que deseas trabajar: '))
+total = num ** 2
+print(f'El resultado de {num} elevado al cuadrado ({num}^2) es igual a: {total}')
+
+
+#Un alg que tome el valor de un producto, le aplique el 20%, de descuento,
+#imprima el valor del producto inicial, el valor del descuanto y el valor ahorrado
+valorIn = int(input('Ingrese el valor del producto que se le aplicará 20% de descuento: '))
+valorAho = valorIn * 0.2
+valorDesc = valorIn * 0.8
+print(f'El valor inicial era de {valorIn}, el valor final es de {valorDesc} y el valor ahorrado es de {valorAho}. ')
